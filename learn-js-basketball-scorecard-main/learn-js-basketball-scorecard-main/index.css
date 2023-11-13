@@ -1,0 +1,63 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: CursedTimerULiL;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #EEEEEE;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-score, #guest-score {
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    color: #F94F6D;
+    background-color: #080001;
+    padding: 25px 50px 10px 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.add-1, .add-2, .add-3 {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: CursedTimerULiL;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    margin: 0 4px;
+}
+
+#new-game {
+    display: flex;
+    margin: 70px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #080001;
+    color: #F94F6D;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}

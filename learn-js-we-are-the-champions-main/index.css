@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    background: #1B1924;
+    color: white
+}
+
+#freddie-img {
+    width: 90px;
+    height: 90px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+#input-el {
+    width: 80%;
+    height: 14%;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 8px;
+    background: #444059;
+    color: white;
+    font-family: Inter;
+    font-size: 15px;
+    resize: none;
+    padding: 15px 20px;
+    border: none;
+}
+
+#from-el, #to-el {
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    color: #8F8F8F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px;
+    width: 37%;
+}
+
+#publish-btn {
+    display: block;
+    width: 84%;
+    border-radius: 8px;
+    background: #28A9F1;    
+    margin: 13px auto 10px auto;
+    flex-shrink: 0;
+    color: #04131C;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+}
+
+#clear-btn {
+    display: block;
+    width: 84%;
+    border-radius: 8px;
+    background: #28A9F1;    
+    margin: 13px auto 10px auto;
+    flex-shrink: 0;
+    color: #04131C;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#ulEl {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+li {
+    list-style-type: none;
+    background-color: white;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px 80px 15px auto;
+    width: 85%;
+    padding: 15px; 
+}
+
+p {
+    list-style-type: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px 60px 15px auto;
+    width: 87%;
+    padding: 15px; 
+}

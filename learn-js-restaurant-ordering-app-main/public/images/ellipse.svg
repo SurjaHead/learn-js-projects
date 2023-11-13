@@ -1,0 +1,12 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" fill="#F5F5F5"/>
+<g id="default-state">
+<rect width="600" height="1161" transform="translate(-504 -242)" fill="white"/>
+<g id="item-1">
+<g id="add-btn">
+<path id="Text" d="M24.8395 32.8068V19.0114H26.169V32.8068H24.8395ZM18.6122 26.5795V25.2386H32.3963V26.5795H18.6122Z" fill="#3C3C3C"/>
+<circle id="Ellipse 1" cx="25" cy="25" r="24.25" stroke="#DEDEDE" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</svg>

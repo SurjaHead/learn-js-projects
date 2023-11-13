@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="generate">Generate a</h1>
+    <h1>random password</h1>
+    <h3>Never use an insecure password again.</h3>
+    <h5>Length of password (recommended max is 20 characters):</h5>
+    <div id="specifiers">
+      <input id="characters" placeholder="15" type="number" />
+      <h5>
+        Enter characters that you don't want included in the password (type
+        "symbols" if you want to exclude all symbols):
+      </h5>
+      <input id="restrictions" placeholder="_-!" type="text" />
+    </div>
+    <button onclick="generatePasswords()">Generate passwords</button>
+    <div id="line"></div>
+    <div id="password-section">
+      <h3 class="passwords" id="password-1"></h3>
+      <h3 class="passwords" id="password-2"></h3>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

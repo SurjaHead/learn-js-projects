@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="hero">
+      <h1 id="hero-heading">Surya's Diner</h1>
+      <h3 id="hero-description">The best burgers and pizzas in town.</h3>
+    </div>
+    <div id="menu"></div>
+    <div id="order"></div>
+    <div id="order-end"></div>
+    <button id="complete-order-btn">Complete Order</button>
+    <form id="card-details">
+      <h3 id="form-heading">Enter card details</h3>
+      <input
+        type="text"
+        name="cardName"
+        id="cardName"
+        placeholder="Enter your name"
+        required
+      />
+      <input
+        type="tel"
+        name="cardNumber"
+        id="cardNumber"
+        inputmode="numeric"
+        pattern="[0-9\s]{13,19}"
+        maxlength="19"
+        placeholder="Enter card number"
+        required
+      />
+      <input
+        type="tel"
+        name="cardCvv"
+        id="cardCvv"
+        inputmode="numeric"
+        maxlength="3"
+        pattern="[0-9]{3}"
+        placeholder="Enter CVV"
+        required
+      />
+      <button id="pay-btn">Pay</button>
+      <h3 id="loading"></h3>
+    </form>
+    <div id="rating">
+      <h3>
+        Please give us a rating to help us improve the online ordering
+        experience:
+      </h3>
+      <i class="rating__star far fa-star fa-xl" id="1"></i>
+      <i class="rating__star far fa-star fa-xl" id="2"></i>
+      <i class="rating__star far fa-star fa-xl" id="3"></i>
+      <i class="rating__star far fa-star fa-xl" id="4"></i>
+      <i class="rating__star far fa-star fa-xl" id="5"></i>
+    </div>
+    <form id="rating-form">
+      <button id="submit-rating" type="submit">Submit rating</button>
+    </form>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

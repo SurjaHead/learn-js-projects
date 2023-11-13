@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f4f4;
+}
+
+#hero {
+  background-color: #6943ff;
+  color: white;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  padding: 33px 0 0 0;
+  margin: 0;
+}
+
+#input-el {
+  font-size: 58px;
+  font-weight: 800;
+  border: 2px solid #b295ff;
+  background-color: #6943ff;
+  color: white;
+  max-width: 117px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 30px auto;
+  display: flex;
+}
+
+#convert-btn {
+  background-color: white;
+  color: #3d3d3d;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 35px;
+  margin-bottom: 30px;
+}
+
+#convert-btn:hover {
+  background-color: antiquewhite;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#input-el::placeholder {
+  opacity: 1;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5a537b;
+}
+
+p {
+  font-size: 14px;
+}
+
+.conversion {
+  background-color: white;
+  margin: 25px;
+  padding: 15px 0 10px 0;
+}
+
+#length {
+  margin-top: 40px;
+}

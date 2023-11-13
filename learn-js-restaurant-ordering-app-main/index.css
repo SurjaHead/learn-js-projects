@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+}
+
+#hero {
+  margin: 0;
+  background: url("public/images/burger-background.png");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  padding: none;
+}
+
+#hero-heading,
+#hero-description {
+  padding-left: 45px;
+  margin: 0;
+  font-size: 39px;
+  color: #fff;
+  font-family: "Smythe", cursive;
+}
+
+#hero-heading {
+  padding: 40px 0 20px 45px;
+}
+
+#hero-description {
+  font-size: 22.422px;
+}
+
+#menu {
+  margin: auto;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 200px;
+  border-bottom: 2px solid #d2d2d2;
+  align-items: center;
+  justify-content: left;
+  width: 84%;
+  margin: auto;
+}
+
+.item-description {
+  margin: 30px 0 0 30px;
+}
+
+.item-graphics {
+  display: inline;
+  width: 70px;
+  justify-content: center;
+  text-align: center;
+  font-family: Inter;
+}
+
+.item-name {
+  font-family: "Smythe", cursive;
+  font-size: 28px;
+  line-height: 16.8px; /* 60% */
+  margin: 0 0 8.8px 0;
+}
+
+.item-ingredients {
+  color: #8b8b8b;
+  font-family: "Smythe", cursive;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  width: 358px;
+  margin: 0 0 8px 0;
+}
+
+.item-price {
+  font-family: "Smythe", cursive;
+  font-size: 20px;
+  line-height: 24px; /* 120% */
+  margin-top: 0;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.addBtns {
+  margin-left: auto;
+  color: #3c3c3c;
+  background-color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 200;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1.5px solid #dedede;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.addBtns:hover {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+#order {
+  text-align: center;
+  font-family: "Smythe", cursive;
+  font-size: 28px;
+  width: 84%;
+  margin: auto;
+  border-bottom: none;
+}
+
+.order-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-name,
+.remove,
+.item-price {
+  display: inline-block;
+}
+
+.remove {
+  color: #bbb;
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 24px; /* 200% */
+  margin-left: 15px;
+}
+
+.remove:hover {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.item-price {
+  font-size: 20px;
+  margin-left: auto;
+}
+
+#order-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+  text-align: center;
+  margin: auto;
+}
+
+#total-price-txt,
+#total-price-num {
+  font-family: "Smythe", cursive;
+}
+
+#total-price-txt {
+  margin-right: auto;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+#total-price-num {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+#complete-order-btn {
+  display: none;
+  width: 84%;
+  margin: 10px auto;
+  padding: 18px 175px 18px 194px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background: #16db99;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: var(--white, #fff);
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  border: none;
+}
+
+#complete-order-btn:hover {
+  cursor: pointer;
+  font-size: 18px;
+  width: 86%;
+}
+
+#card-details {
+  display: none;
+  flex-direction: column;
+  border-radius: 3.89px;
+  background: #fff;
+  width: 87%;
+  margin: 100px auto;
+  height: 542px;
+  justify-content: center;
+  position: absolute;
+  top: 210px;
+  right: 6%;
+  box-shadow: 0 0 100px -10px black;
+}
+
+#form-heading {
+  font-family: Verdana;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.119px; /* 129.664% */
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+input,
+#pay-btn {
+  display: block;
+  width: 88%;
+  margin: 10px auto;
+}
+
+input {
+  border-radius: 3.89px;
+  border: 1.297px solid #757575;
+  padding: 20px 15px;
+  color: #757575;
+  font-family: Verdana;
+  font-size: 20px;
+  line-height: 31.119px; /* 155.596% */
+}
+
+#pay-btn {
+  width: 93%;
+  padding: 15px 0;
+  color: var(--white, #fff);
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31.119px; /* 155.596% */
+  border: none;
+  background-color: #16db99;
+  margin-top: 35px;
+  border-radius: 3.89px;
+  margin-bottom: -80px;
+}
+
+#pay-btn:hover {
+  cursor: pointer;
+  width: 95%;
+  font-size: 22px;
+}
+
+#order-message-display {
+  display: none;
+}
+
+#loading {
+  display: none;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 120px auto -50px auto;
+}
+
+#order-message-display {
+  color: #065f46;
+  font-family: "Smythe", cursive;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 16.8px; /* 52.5% */
+  border-radius: 3px;
+  background: #ecfdf5;
+  padding: 51px 66px 52px 59px;
+  width: 84%;
+}
+
+#rating {
+  display: none;
+  text-align: center;
+  margin: 20px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-star {
+  color: #16db99;
+}
+
+#rating-form {
+  display: none;
+}
+
+#submit-rating {
+  display: flex;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #16db99;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit-rating:hover {
+  cursor: pointer;
+}
